@@ -5,8 +5,8 @@ ENV['RACK_ENV'] ||= 'development'
 
 class EarthApp < Sinatra::Base
 
-  # get '/' do
-  #
-  # end
+  get '/' do
+    "Hello from planet Earth!"
+  end
 
 end
